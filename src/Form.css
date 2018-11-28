@@ -1,0 +1,144 @@
+.flip form{
+    padding: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 15px 0 rgba(0,0,0,0.12) !important;
+}
+.flip h4{
+    margin-left: 170px;
+    color:white
+}
+.Form-container{
+    padding-top: 100px;
+    padding-bottom: 27px;
+    background:url('img/writing.jpg');
+    background-size: cover;
+}
+.Form-btn{
+    border-radius: 100px;
+}
+
+select.form-control:not([size]):not([multiple]) {
+    height: 3.25rem !important;
+}
+
+.form-control {
+    border-radius: 0px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    border-radius: 100px;
+}
+
+.Form-form-control{
+    margin-left: 30px;
+    border-radius: 0;
+    margin-bottom: 10px;
+    width: 84%;
+}
+.flip p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.blue{
+    color: #337ab7;
+}
+
+.panel-default {
+    border-color: #ddd;
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+.fa-facebook-f{
+    padding: 10px 12px 10px 12px;
+    border: 1px solid #337ab7;
+    border-radius: 50%;
+}
+.fa-google-plus{
+    padding: 10px 8px 10px 8px;
+    border: 1px solid #337ab7;
+    border-radius: 50%;
+}
+.fa-twitter{
+    padding: 10px 8px 10px 8px;
+    border: 1px solid #337ab7;
+    border-radius: 50%;
+}
+/*i{*/
+/*margin-left: 5px;*/
+/*margin-right: 5px;*/
+/*}*/
+
+
+.flip fieldset{
+    border: 1px solid #ddd !important;
+    margin: 0;
+    min-width: 0;
+    padding: 10px;
+    position: relative;
+    border-radius:4px;
+    background-color:#f5f5f5;
+    padding-left:10px!important;
+}
+
+.flip legend{
+    font-size:14px;
+    font-weight:bold;
+    margin-bottom: 0;
+    width: 45%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px 5px 5px 10px;
+    background-color: #ffffff;
+}
+
+.Form-img{
+    width: 20%;
+}
+.flip {
+    -webkit-perspective: 800;
+    perspective: 800;
+
+    position: relative;
+}
+.flip .Form-card.flipped {
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+}
+.flip .Form-card {
+    margin-left: 40px;
+    height: 100%;
+    width : 80%;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: 0.5s;
+    transform-style: preserve-3d;
+    transition: 0.5s;
+}
+.flip .Form-card .face {
+
+    -webkit-backface-visibility: hidden ;
+    backface-visibility: hidden ;
+    z-index: 2;
+
+}
+.flip .Form-card .front {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+
+}
+.flip .Form-card .back {
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+}
+.inner {
+    margin:0 !important;
+}
